@@ -1,0 +1,45 @@
+# Project Execution Logs & Artifacts
+graph_agents_states.md
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+
+# MinerU / Local Extraction debug (if redirected from temp directories)
+pdf_extract_*/
+draw_extract_*/
+mineru_extract_*/

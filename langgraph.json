@@ -1,0 +1,6 @@
+{
+  "dependencies": ["./"],
+  "graphs": {
+    "patent_graph": "graph_workflow:app_graph"
+  }
+}

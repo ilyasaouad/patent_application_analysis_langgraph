@@ -1,9 +1,9 @@
 from typing import Literal
 from langgraph.graph import StateGraph, START, END
 from graph_state import GraphState
-from agents.read_parse_document import read_parse_document
-from agents.no_claims_provided import no_claims_provided
-from agents.extract_claims import extract_claims_agent
+from agents.agent1_read_parse_document.read_parse_document import read_parse_document
+from agents.agent3_no_claims_provided.no_claims_provided import no_claims_provided
+from agents.agent2_extract_claims.extract_claims import extract_claims_agent
 
 
 def route_initial_claims_check(

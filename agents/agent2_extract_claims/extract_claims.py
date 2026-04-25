@@ -4,8 +4,8 @@ import requests
 from typing import Tuple
 from graph_state import GraphState
 
-# Load prompt from resources (easy to update without code changes)
-PROMPT_PATH = os.path.join("resources_for_agents", "extract_claims", "prompt.md")
+# Load prompt from same directory (easy to update without code changes)
+PROMPT_PATH = os.path.join(os.path.dirname(__file__), "prompt.md")
 
 
 def load_prompt() -> str:
@@ -40,7 +40,7 @@ def extract_claims_regex(text: str) -> Tuple[str, str]:
     Returns a tuple: (extracted_claims_text, remaining_description_text)
     """
     pattern = re.compile(
-        r"^(#*\s*(?:PATENT\s+)?CLAIMS?|PATENTKRAV|KRAV)\s*$",
+        r"^(?:#*\s*(?:PATENT\s+)?CLAIMS?|#*\s*PATENTKRAV|#*\s*KRAV)\s*$",
         re.IGNORECASE | re.MULTILINE,
     )
     match = pattern.search(text)
@@ -116,8 +116,16 @@ def extract_claims(description_text: str) -> Tuple[str, str]:
     orig_len = len(orig_text)
     final_claims, final_remaining = extract_claims_regex(orig_text)
 
+    def _has_claim_numbers(text: str) -> bool:
+        return bool(
+            re.search(r"^\s*(?:\d+[\.)]\s+|\([\divxlc]+\)\s+)", text, re.MULTILINE)
+        )
+
     is_regex_good = (
-        final_claims and len(final_claims) > 50 and len(final_claims) < (orig_len * 0.9)
+        final_claims
+        and len(final_claims) > 50
+        and len(final_claims) < (orig_len * 0.9)
+        and _has_claim_numbers(final_claims)
     )
 
     if not is_regex_good:
@@ -155,7 +163,11 @@ def extract_claims_agent(state: GraphState) -> GraphState:
         print(
             f"[Extract Claims Agent] Extracted {len(extracted_claims)} characters. Updating State."
         )
-        return {"description_text": remaining_desc, "claims_text": extracted_claims}
+        return {
+            "description_text": remaining_desc,
+            "claims_text": extracted_claims,
+            "claims_extracted_from_description": True,
+        }
     else:
         print(
             "[Extract Claims Agent] Both Regex and LLM extraction completely failed. Passing empty state forward."

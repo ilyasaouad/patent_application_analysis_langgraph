@@ -1,0 +1,102 @@
+{
+  "is_likely_ai_generated": true,
+  "confidence_score": 0.609,
+  "risk_level": "MEDIUM",
+  "feature_scores": {
+    "fingerprint": 0.35,
+    "anchor_similarity": 0.78,
+    "hallucination": 0.86,
+    "drawing": 0.2
+  },
+  "detailed_analysis": {
+    "fingerprint_analysis": {
+      "score": 0.35,
+      "findings": [
+        "moderate uniformity in sentence length across sections",
+        "some passive constructions (e.g., \"is presented\", \"is used\")",
+        "technical language is clean but lacks idiosyncratic phrasing typical of human drafts"
+      ]
+    },
+    "anchor_analysis": {
+      "similarity": 0.78,
+      "findings": [
+        "Both descriptions employ nearly identical phrasing such as \"multi‑dimensional context space\" and \"oscillatory (wave‑function) representations\" to characterize the data encoding method.",
+        "The logical structure mirrors each other, moving from a high‑level overview of a context‑driven data‑processing system to detailed components (repository, embedding engine, input interface) much like the original’s field, background, and problem statements."
+      ]
+    },
+    "hallucination_analysis": {
+      "score": 0.86,
+      "findings": [
+        "high-dimensional probability wave",
+        "associative retrieval",
+        "dynamic processing",
+        "fixed-dimensional vectors",
+        "rigid indexing schemes",
+        "latent vectors",
+        "machine learning models",
+        "neural networks",
+        "parallel context consideration",
+        "multiple hypotheses",
+        "attention mechanisms",
+        "keyword matching",
+        "probabilistic models lacking deterministic reliability",
+        "redundancy",
+        "scalability issues"
+      ]
+    },
+    "drawing_analysis": {
+      "score": 0.2,
+      "findings": [
+        "The drawing includes an unlabeled figure (\"Fig. - Hardware Implementation for Resonance Computation\") without a numeric reference, while the description does not mention this figure or provide a corresponding element number."
+      ]
+    },
+    "enablement_assessment": {
+      "enablement_conclusion": "NOT ENABLED",
+      "missing_elements": [
+        "Precise mathematical definition of the oscillatory (wave) representation for data fragments",
+        "Algorithmic procedure for computing the resonance score, including formulas and normalization methods",
+        "Specification of how context inputs are transformed into the multi‑dimensional space",
+        "Details on how the coordinate vector is derived from fragment metadata",
+        "Parameter values for wave function shape, frequency, amplitude decay, and dimensional weighting",
+        "Concrete examples or experimental data demonstrating successful retrieval",
+        "Hardware or software architecture required to implement the system (e.g., processing units, memory layout)",
+        "Training or calibration process for setting thresholds and dimensional scales"
+      ],
+      "technical_deficiencies": [
+        "The disclosure provides only abstract, high‑level concepts without concrete implementation steps",
+        "No explicit formulas or pseudocode for embedding, resonance calculation, or selection criteria",
+        "Absence of guidance on handling dimensionality (e.g., 11‑dimensional space) in practice, such as data structures or computational complexity",
+        "Lack of illustrative embodiments or case studies that would enable a skilled practitioner to reproduce the invention"
+      ]
+    },
+    "model_used": "gpt-oss:120b-cloud"
+  },
+  "recommendations": [
+    "🚨 CRITICAL: High anchor similarity (>75%) - strong AI signal",
+    "   AI generated very similar text when given same claims",
+    "   Action: Manual review required before filing",
+    "⚠️ MEDIUM RISK: Moderate AI indicators detected",
+    "   Action: Spot-check sections with repetitive patterns",
+    "\n⚖️ ENABLEMENT ISSUE:",
+    "   CRITICAL: Patent disclosure lacks enablement",
+    "   Action: Request additional technical details",
+    "• moderate uniformity in sentence length across sections",
+    "• some passive constructions (e.g., \"is presented\", \"is used\")"
+  ],
+  "applied_rules": [],
+  "metadata": {
+    "timestamp": "2026-04-25T23:42:17.330156",
+    "config": {
+      "threshold": 0.6,
+      "weights": {
+        "fingerprint": 0.3,
+        "anchor": 0.4,
+        "hallucination": 0.2,
+        "drawing": 0.1
+      }
+    }
+  },
+  "status": "SUCCESS",
+  "summary": "## 🧠 1. Bottom Line: Is it AI-generated?\n\n**Conclusion: LIKELY YES — This document shows AI generation indicators.**\nThe confidence level is **60.9%**, which sits in a gray zone. While several signals suggest AI involvement, the evidence is not overwhelming.\nThis falls into a **gray zone** — the indicators are present but not definitive. The document may be AI-assisted rather than fully AI-generated, or it may simply use very formal, structured language typical of patents.\n\n## ⚖️ 2. Risk Level Interpretation\n\n**Risk Level: MEDIUM**\nThis means the document shows **moderate AI indicators**. Some patterns look machine-generated, but others appear natural.\nIn practice, this could mean:\n- The document was AI-generated but then edited by a human\n- The document uses very formal patent language that happens to trigger some detectors\n- Only certain sections (like the abstract or background) are AI-generated\n\n## 🔍 3. Key Driver Explanation\n\n**Primary Detection Method: Anchor Comparison**\n\nThis method works by asking an AI to write a patent description based *only* on the claims, then comparing that AI-generated text to the actual document. If they are very similar, it suggests the original was also AI-generated.\n\n**Anchor Similarity Score: 78.0% (High)**\nThe AI-generated anchor text was **noticeably similar** to the original. While not definitive, this suggests:\n- The original may have been AI-generated or heavily AI-assisted\n- The writing follows standard templates and predictable structures\n- Human editing may have been applied to an AI-generated draft\n\n## 🤖 4. Hallucination & Language Analysis\n\n**Hallucination / Unsupported Content: HIGH**\nThe description contains **technical terms or concepts that are not supported by the claims**. This means the document describes things that are not actually claimed — a common issue in AI-generated text where the model produces plausible-sounding but technically shallow content.\nExamples of unsupported content:\n- high-dimensional probability wave\n- associative retrieval\n- dynamic processing\n\n**Important Note:** High hallucination scores do **not** automatically mean the text is AI-generated. Human writers can also include unsupported technical details. However, excessive unsupported content is a **quality issue** regardless of authorship — it weakens the patent and may cause problems during examination.\n\n**Writing Style: Natural variation detected**\nThe text shows human-like variation in sentence length, vocabulary, and structure. This is a good sign for authenticity.\n\n## ⚠️ 5. Critical Issues\n\n**🚨 ENABLEMENT ISSUE DETECTED — This is legally significant.**\n\nThe patent disclosure **does not provide enough detail** for a person skilled in the art to actually build or use the invention. This is called a **lack of enablement**, and it is one of the most common reasons patents are rejected or invalidated.\n\n**What this means in simple terms:**\n- Someone reading your patent cannot figure out how to make your invention work\n- The description is too vague, too abstract, or skips important technical steps\n- This makes the patent legally weak and easy to challenge\n\n**Specific elements missing from the disclosure:**\n- Precise mathematical definition of the oscillatory (wave) representation for data fragments\n- Algorithmic procedure for computing the resonance score, including formulas and normalization methods\n- Specification of how context inputs are transformed into the multi‑dimensional space\n- Details on how the coordinate vector is derived from fragment metadata\n- Parameter values for wave function shape, frequency, amplitude decay, and dimensional weighting\n\n**Technical deficiencies identified:**\n- The disclosure provides only abstract, high‑level concepts without concrete implementation steps\n- No explicit formulas or pseudocode for embedding, resonance calculation, or selection criteria\n- Absence of guidance on handling dimensionality (e.g., 11‑dimensional space) in practice, such as data structures or computational complexity\n- Lack of illustrative embodiments or case studies that would enable a skilled practitioner to reproduce the invention\n\n**Why this matters:**\nA patent that is not enabled is **legally invalid**. Even if your invention is completely new and inventive, you will not get a granted patent — or if you do, it can be easily invalidated in court or opposition proceedings.\n\n**This is a technical/legal quality issue, not necessarily an AI detection issue.** Both human-written and AI-generated patents can have enablement problems. However, AI-generated text is more prone to this because models often produce plausible-sounding but technically shallow content.\n\n## 📉 6. Feature Scores Breakdown\n\nHere is what each score means:\n\n**• Fingerprint Score: 35.0% (Weight: 30%)**\n  → The text shows natural variation in style, vocabulary, and sentence structure.\n\n**• Anchor Similarity: 78.0% (Weight: 40%)**\n  → Very high similarity with AI-generated anchor. Strong signal that the original is AI-generated.\n\n**• Hallucination Score: 86.0% (Weight: 20%)**\n  → The description contains unsupported technical content not found in the claims.\n\n**• Drawing Score: 20.0% (Weight: 10%)**\n  → The description aligns well with the drawings.\n\n## 🧾 7. Additional Warnings\n\n**⚠️ Drawing References Detected but No Drawing File Provided**\nThe description explicitly references figures, drawings, or diagrams, but no drawing file was uploaded. This means:\n- The AI detection analysis for drawings could not be completed\n- The patent application may be incomplete without the drawings\n- Figure references in the description cannot be verified\n- For a complete analysis, please upload the drawing file if available\n\n---\n## 🧠 Final Interpretation\n\n**AI Likelihood: MODERATE** — The document shows several AI indicators, but the evidence is not conclusive. It may be AI-assisted or use highly formal language.\n\n**Writing Quality: CONCERNING** — The text shows signs of low-quality generation, including unsupported technical content and uniform language patterns. This needs attention regardless of whether it is AI-generated.\n\n**Legal/Technical Strength: UNCLEAR** — The technical sufficiency could not be fully assessed. A manual review is recommended.\n\n## 🎯 Recommendations\n\nBased on the analysis, here are the recommended next steps:\n\n- 🚨 CRITICAL: High anchor similarity (>75%) - strong AI signal\n-    AI generated very similar text when given same claims\n-    Action: Manual review required before filing\n- ⚠️ MEDIUM RISK: Moderate AI indicators detected\n-    Action: Spot-check sections with repetitive patterns\n- \n⚖️ ENABLEMENT ISSUE:\n-    CRITICAL: Patent disclosure lacks enablement\n-    Action: Request additional technical details\n\n**General advice:**\n- Remove or support unsupported technical claims in the description\n- Ensure every technical term in the description is either claimed or clearly ancillary\n\n---\n*This analysis is generated by an automated system and should be reviewed by a qualified patent attorney before making filing decisions.*",
+  "brief_summary": "⚠️ This patent document **may be AI-generated** (60.9% confidence, MEDIUM risk). The evidence is suggestive but not definitive."
+}

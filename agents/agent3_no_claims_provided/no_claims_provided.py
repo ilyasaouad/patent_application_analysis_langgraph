@@ -1,8 +1,8 @@
 import os
 from graph_state import GraphState
 
-# Resources path for this agent
-AGENT_RESOURCES = os.path.join("resources_for_agents", "no_claims_provided")
+# Resources path for this agent (same directory)
+AGENT_RESOURCES = os.path.dirname(__file__)
 
 
 def no_claims_provided(state: GraphState) -> GraphState:

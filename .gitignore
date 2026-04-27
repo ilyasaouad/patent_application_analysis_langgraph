@@ -44,3 +44,11 @@ pdf_extract_*/
 draw_extract_*/
 mineru_extract_*/
 langgraph.env
+
+# Project directories (generated during runtime)
+uploads/
+input_pdf_documents/
+output_text_documents/
+output_analysis_reports/
+output_clarity_analyse_report/
+claims_analyse_reports/

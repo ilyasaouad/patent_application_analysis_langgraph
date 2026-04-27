@@ -7,7 +7,7 @@ This agent analyzes patent documents for AI-generated content indicators.
 It runs independently and takes extracted text from agent1_read_parse_document.
 
 Usage:
-    from agents.agent2_ai_generated_detection.ai_generated_detection_agent import ai_generated_detection_agent
+    from agents.agent2b_ai_generated_document.ai_generated_detection_agent import ai_generated_detection_agent
 
     result = ai_generated_detection_agent(state)
 """

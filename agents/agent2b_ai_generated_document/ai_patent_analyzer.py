@@ -513,9 +513,9 @@ DESCRIPTION:
         self._print_summary(result)
 
         # Save results
-        if self.input_dir:
-            output_path = os.path.join(self.input_dir, "ai_detection_result.json")
-            result.save_json(output_path)
+        agent_dir = os.path.dirname(os.path.abspath(__file__))
+        output_path = os.path.join(agent_dir, "ai_detection_result.json")
+        result.save_json(output_path)
 
         return result
 

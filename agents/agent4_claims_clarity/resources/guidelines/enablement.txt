@@ -1,0 +1,54 @@
+**FILE NAME:** ENABLEMENT_FRAMEWORK_2025.txt
+
+**SOURCE:**
+
+* Patentstyret Guidelines, Part C, Chapter II (Tilstrekkelig beskrivelse)
+* Norwegian Patents Act § 8 (2)
+
+---
+
+### 1. General requirement for sufficient disclosure
+
+"The invention must be described so clearly and completely that a person skilled in the art can carry it out."
+
+---
+
+### 2. Level of detail required
+
+"The description must provide sufficient information for the skilled person to carry out the invention without undue burden. A certain amount of trial and error is acceptable, provided this does not require inventive effort."
+
+---
+
+### 3. Result-to-be-achieved objection
+
+"A common deficiency arises where the application merely states a result to be achieved without specifying how this can be achieved across the entire claimed scope. A mere assertion or conceptual description without technical measures or parameters is insufficient."
+
+---
+
+### 4. Scope of enablement
+
+"The invention must be capable of being carried out within the entire scope covered by the claims."
+
+---
+
+### 5. Reproducibility
+
+"The invention must be reproducible in a reliable manner; otherwise it is not considered sufficiently disclosed."
+
+---
+
+### 6. Skilled person and common general knowledge
+
+"The skilled person may rely on common general knowledge to supplement the description."
+
+---
+
+**USAGE INSTRUCTION (FOR LLM):**
+
+* Use this framework to identify potential issues relating to sufficient disclosure.
+* Do NOT cite paragraph numbers (1–6) in final outputs.
+* All legal conclusions must be grounded in **Norwegian Patents Act § 8 (2)**.
+* Frame objections as legal assessments, not as references to this framework.
+* Avoid introducing non-existent legal provisions or internal numbering in outputs.
+
+---

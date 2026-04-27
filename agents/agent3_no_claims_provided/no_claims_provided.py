@@ -30,9 +30,18 @@ def no_claims_provided(state: GraphState) -> GraphState:
     else:
         proposal_text = "Error: Could not locate rejection letter template."
 
+    # Check if claims file was provided but extraction failed
+    claims_path = state.get("claims_path")
+    if claims_path:
+        status = "WARNING"
+        error_msg = "Warning: A claims file was uploaded but could not be extracted. The document may be empty, corrupted, or in an unsupported format. Analysis will continue with available data."
+    else:
+        status = "ERROR"
+        error_msg = "Analysis halted: No patent claims sequence could be provided or extracted from the documents."
+
     return {
-        "status": "ERROR",
-        "error_message": "Analysis halted: No patent claims sequence could be provided or extracted from the documents.",
+        "status": status,
+        "error_message": error_msg,
         "final_report": report_text,
         "proposal_letter": proposal_text,
     }

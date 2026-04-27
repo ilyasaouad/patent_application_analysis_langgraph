@@ -1,0 +1,41 @@
+**FILE NAME:** NO_PATENTSTYRET_SUPPORT_FRAMEWORK_2025.txt
+
+**SOURCE:**
+
+* Patentstyret Guidelines, Part C (Claims supported by the description)
+* Norwegian Patents Act § 8 (2)
+
+---
+
+### 1. General requirement for support
+
+"The claims must be supported by the description. This requires that there is a basis in the description for the subject-matter of each claim and that the scope of the claims is justified by the content of the description and any drawings."
+
+---
+
+### 2. Extent of generalisation
+
+"Claims are often generalisations of specific embodiments. The permissible level of generalisation depends on the nature of the invention and the contribution to the art. Broader claims may be justified where the invention represents a significant technical advance."
+
+---
+
+### 3. Lack of support
+
+"A claim lacks support where it defines subject-matter that is not disclosed in the description or extends beyond what the skilled person can derive from the application."
+
+---
+
+### 4. Relationship to sufficient disclosure
+
+"A lack of support may coincide with insufficient disclosure where the claims extend beyond what the description enables the skilled person to carry out."
+
+---
+
+**USAGE INSTRUCTION (FOR LLM):**
+
+* Use this framework to assess whether claims are supported by the description.
+* Do NOT cite paragraph numbers (1–4) in final outputs.
+* Base all legal conclusions on **Norwegian Patents Act § 8 (2)**.
+* Present objections as legal reasoning, not as references to this framework.
+
+---

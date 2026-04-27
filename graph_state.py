@@ -19,8 +19,17 @@ class GraphState(TypedDict):
     # Metadata
     claims_extracted_from_description: bool
 
-    # AI Detection Results
+    # AI Detection Results (Agent 2b)
     ai_detection_results: Optional[dict]
+
+    # Claims Clarity Results (Agent 4)
+    claims_clarity_results: Optional[dict]
+
+    # Claims Unity Results (Agent 4B)
+    claims_unity_results: Optional[dict]
+
+    # Claims Antecedent Results (Agent 4C)
+    claims_antecedent_results: Optional[dict]
 
     # Status / errors
     status: str

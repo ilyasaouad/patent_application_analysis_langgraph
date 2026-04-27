@@ -1,0 +1,57 @@
+{
+  "conclusion": "SINGLE_INVENTION",
+  "status_reason": "All claims share the same technical contribution – a coexistence device for upgrading an OLT – satisfying the unity requirement under Norwegian Patents Act §10 and Patent Regulations §8",
+  "grouping": [
+    {
+      "group_no": 1,
+      "representative_independent_claims": [
+        "1"
+      ],
+      "included_dependent_claims": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "technical_subject_matter": "Coexistence device (Cex) with multiple first interfaces, optical filters and splitter for simultaneous transmission of several frequency bands in an upgraded OLT",
+      "objective_technical_problem": "Provide a device that enables coexistence of legacy and next‑generation PON signals over existing OLT infrastructure without loss of service",
+      "special_technical_features": [
+        "multiple first interfaces for connecting to OLT and ODNs",
+        "arranged first, second and third optical filters with pass/reflect functions",
+        "integrated splitter directing split signals to respective interfaces",
+        "dual‑unit configuration separating first and second Cex units"
+      ],
+      "links_to_description": [
+        "para Technical field",
+        "para Background art",
+        "Fig. 2A",
+        "Fig. 3B"
+      ]
+    }
+  ],
+  "common_features": [
+    "multiple first interfaces",
+    "optical filter arrangement",
+    "splitter coupling",
+    "dual‑unit architecture"
+  ],
+  "technical_relationship_analysis": "The common features listed above are not generic background elements but constitute a coordinated arrangement that solves the same technical problem across all claims. The specific combination of multiple interfaces, reflective/pass‑through optical filters and the integrated splitter creates a special technical effect – simultaneous handling of different frequency bands – which links the dependent claims to the independent claim and to each other, thereby forming a single general inventive concept.",
+  "legal_mapping": "Under Norwegian Patents Act §10 an application must contain a single invention; Patent Regulations §8 requires that claims share a special technical feature linking them. The identified special technical features satisfy this requirement.",
+  "recommendation": "Proceed with examination on the basis of a single inventive concept and consider grant if novelty and inventive step are met.",
+  "confidence": "HIGH",
+  "exemplar_analogies_used": [
+    {
+      "case_id": "T 0533/09",
+      "quoted_excerpt": "no exemplar excerpt available",
+      "one_line_summary": "The Board held that method and apparatus claims formed a single inventive concept when the apparatus provided essential technical means solving the same objective problem as the method.",
+      "mapping": "Analogously, the Cex device (apparatus) and its method of operation share the same technical solution, supporting unity."
+    }
+  ],
+  "guideline_version": "2024‑06‑01",
+  "rejection_letter": null,
+  "status": "SUCCESS"
+}

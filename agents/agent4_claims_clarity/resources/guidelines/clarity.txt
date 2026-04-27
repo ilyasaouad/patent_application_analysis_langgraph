@@ -1,0 +1,59 @@
+**FILE NAME:** NO_PATENTSTYRET_CLARITY_FRAMEWORK_2025.txt
+
+**SOURCE:**
+
+* Patentstyret Guidelines, Part C (Claims – clarity and interpretation)
+* Norwegian Patents Act § 8 (2)
+
+---
+
+### 1. General requirement for clarity
+
+"The claims must define the matter for which protection is sought in clear and concise terms. They must be clear in themselves and when read in light of the common general knowledge."
+
+---
+
+### 2. Use of relative and vague terms
+
+"Terms such as 'large', 'small', 'strong', 'high', or similar expressions are unclear unless the skilled person can derive an objective technical meaning from the context of the invention."
+
+---
+
+### 3. Use of qualifying terms
+
+"Expressions such as 'about', 'approximately', or 'substantially' are acceptable only where they have a recognized meaning in the art or where the description provides objective criteria for their interpretation."
+
+---
+
+### 4. Definition by result to be achieved
+
+"A claim defining the invention in terms of a result to be achieved is only acceptable if the skilled person can achieve the result across the entire scope of the claim and the description provides sufficient guidance."
+
+---
+
+### 5. Parameters and measurement methods
+
+"Where a claim includes parameters, the method of measurement must be specified unless it is standard in the relevant technical field."
+
+---
+
+### 6. Independence from the description
+
+"The claims should, as a general rule, be understandable without requiring reference to the description. References to the description are only acceptable for non-essential features."
+
+---
+
+### 7. Breadth of claims
+
+"A claim must not be broader than is justified by the contribution to the art and the technical teaching disclosed in the description."
+
+---
+
+**USAGE INSTRUCTION (FOR LLM):**
+
+* Use this framework to identify clarity issues in claims.
+* Do NOT cite paragraph numbers (1–7) in final outputs.
+* All objections must be grounded in **Norwegian Patents Act § 8 (2)**.
+* Avoid referring to internal structure; express conclusions as legal reasoning.
+
+---
